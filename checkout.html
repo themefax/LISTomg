@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LISTomg - Directory & Listings HTML Template</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="assets/css/summernote.min.css">
+    <link rel="stylesheet" href="assets/css/scroll_button.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!--=============================
+        MAIN MENU START
+    ==============================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo_1.png" alt="Directory & Listings Template" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="far fa-bars menu_icon_bar"></i>
+                <i class="far fa-times close_icon_close"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a class="active" href="index.html">home style 01</a></li>
+                            <li><a href="index_2.html">home style 02</a></li>
+                            <li><a href="index_3.html">home style 03</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Listing <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a href="listing_grid_view.html">listing grid view</a></li>
+                            <li><a href="listing_list_view.html">listing list view</a></li>
+                            <li><a href="listing_left_sidebar.html">listing left sidebar</a></li>
+                            <li><a href="listing_right_sidebar.html">listing right sidebar</a></li>
+                            <li><a href="listing_details.html">listing details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a href="#">Blog 1</a></li>
+                            <li><a href="#">Blog 1</a></li>
+                            <li><a href="#">Blog 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a href="#">page 1</a></li>
+                            <li><a href="#">page 1</a></li>
+                            <li><a href="#">page 1</a></li>
+                            <li><a href="#">page 1</a></li>
+                            <li><a href="#">page 1</a></li>
+                            <li><a href="#">page 1</a></li>
+                            <li><a href="#">page 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="menu_right d-flex align-items-center">
+                    <li>
+                        <a class="user_login" href="dashboard.html">
+                            <span> <img src="assets/images/login_icon.png" alt="user" class="img-fluid w-100">
+                            </span>
+                            Account
+                        </a>
+                    </li>
+                    <li class="menu_btn">
+                        <a class="common_btn" href="#">Add Listing <i class="far fa-plus"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--=============================
+        MAIN MENU END
+    ==============================-->
+
+
+    <!--=============================
+        BREADCRUMBS START
+    ==============================-->
+    <section class="breadcrumbs" style="background: url(./assets/images/breadcrumbs_bg.jpg);">
+        <div class="breadcrumbs_overly">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 justify-content-center">
+                        <div class="breadcrumb_text wow fadeInUp" data-wow-duration="1.5s">
+                            <h1>checkout</h1>
+                            <ul class="d-flex flex-wrap justify-content-center">
+                                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                                <li><a href="#">checkout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================
+        BREADCRUMBS END
+    ==============================-->
+
+
+    <!--=============================
+        CHECKOUT START
+    ==============================-->
+    <section class="checkout_area pt_120 xs_pt_100 pb_120 xs_pb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="checkout_left">
+                        <h4 class="checkout_heading">Billing Details</h4>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>First name *</label>
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>Email address *</label>
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>Phone *</label>
+                                        <input type="text" placeholder="Phone">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>Company name (optional)</label>
+                                        <input type="text" placeholder="Company name (optional)">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>Country / Region *</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Select Counrty</option>
+                                            <option value="">Bangladesh</option>
+                                            <option value="">Korea</option>
+                                            <option value="">Thailand</option>
+                                            <option value="">russia</option>
+                                            <option value="">canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>Town / City *</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Select City</option>
+                                            <option value="">Bangladesh</option>
+                                            <option value="">Korea</option>
+                                            <option value="">Thailand</option>
+                                            <option value="">russia</option>
+                                            <option value="">canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>State *</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Selecr State</option>
+                                            <option value="">dhaka</option>
+                                            <option value="">seoul</option>
+                                            <option value="">bangkok</option>
+                                            <option value="">mosque</option>
+                                            <option value="">torento</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="checkout_left_input">
+                                        <label>ZIP Code *</label>
+                                        <input type="text" placeholder="ZIP Code">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="checkout_left_input">
+                                        <label>Street address *</label>
+                                        <input type="text" placeholder="House number and street name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="checkout_left_input">
+                                        <label>Adinional Info</label>
+                                        <textarea rows="5" placeholder="Type here"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="sticky_sidebar">
+                        <div class="checkout_right">
+                            <div class="reservation_details">
+                                <h4>Booking Details</h4>
+                                <ul>
+                                    <li>
+                                        <p>Date</p>
+                                        <span>24 March 2024</span>
+                                    </li>
+                                    <li>
+                                        <p>Time</p>
+                                        <span>11am 12am</span>
+                                    </li>
+                                    <li>
+                                        <p>Form</p>
+                                        <span>14Jun</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="reservation_details mt_40">
+                                <h4>Pricing Details</h4>
+                                <ul>
+                                    <li>
+                                        <p>Dining</p>
+                                        <span>$150</span>
+                                    </li>
+                                    <li>
+                                        <p>Reservation</p>
+                                        <span>$60</span>
+                                    </li>
+                                    <li>
+                                        <p>Tax</p>
+                                        <span>$53</span>
+                                    </li>
+                                    <li>
+                                        <p>Total Cost</p>
+                                        <span>$263</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="payment.html" class="common_btn">checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================
+        CHECKOUT END
+    ==============================-->
+
+
+    <!--=============================
+        FOOTER START
+    ==============================-->
+    <footer class="footer">
+        <div class="footer_area pt_120 xs_pt_100 pb_115 xs_pb_95">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="footer_left">
+                            <div class="footer_logo">
+                                <img src="assets/images/footer_logo.png" alt="logo" class="img-fluid w-100">
+                            </div>
+                            <p>Morbi pharetra, eros sed euismod pellentesque, nulla risus lobortis purus quis maximus.
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <img src="assets/images/mobail.png" alt="icon" class="img-fluid w-100">
+                                        </span>
+                                        +873 698 749 88
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <img src="assets/images/massage.png" alt="icon" class="img-fluid w-100">
+                                        </span>
+                                        example@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="footer_menu">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">listing</a></li>
+                                <li><a href="#">blog</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="footer_menu">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">My Listing</a></li>
+                                <li><a href="#">Favorites</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="footer_menu">
+                            <h4>Help</h4>
+                            <ul>
+                                <li><a href="#">sign in</a></li>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">add listing</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">contuct us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer_right">
+                            <h4>Get in Touch</h4>
+                            <form action="#">
+                                <input type="text" placeholder="example@gmail.com">
+                                <button><i class="far fa-arrow-right"></i></button>
+                            </form>
+                            <h5>Follow Us</h5>
+                            <ul class="d-flex flex-wrap">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy_right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p>© 2024 All Rights Reserved by LISTomg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--=============================
+        FOOTER END
+    ==============================-->
+
+
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+
+    <!--jquery library js-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="assets/js/Font-Awesome.js"></script>
+    <!--nice-select js-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--select-2 js-->
+    <script src="assets/js/select2.min.js"></script>
+    <!--slick js-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--wow js-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--animated barfiller js-->
+    <script src="assets/js/animated_barfiller.js"></script>
+    <!--simple-bar-graph js-->
+    <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--summernote js-->
+    <script src="assets/js/summernote.min.js"></script>
+    <!--scroll button js-->
+    <script src="assets/js/scroll_button.js"></script>
+    <!--count up js-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.min.js"></script>
+
+    <!--script/custom js-->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

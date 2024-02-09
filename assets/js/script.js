@@ -3,16 +3,18 @@ $(function () {
     "use strict";
 
     //=======menu fix js====== 
-    var navoff = $('.main_menu').offset().top;
-    $(window).scroll(function () {
-        var scrolling = $(this).scrollTop();
+    if ($('.main_menu').offset() != undefined) {
+        var navoff = $('.main_menu').offset().top;
+        $(window).on("scroll", function () {
+            var scrolling = $(this).scrollTop();
 
-        if (scrolling > 300) {
-            $('.main_menu').addClass('menu_fix');
-        } else {
-            $('.main_menu').removeClass('menu_fix');
-        }
-    });
+            if (scrolling > navoff) {
+                $('.main_menu').addClass('menu_fix');
+            } else {
+                $('.main_menu').removeClass('menu_fix');
+            }
+        });
+    }
 
 
     //=======select2====== 
@@ -21,25 +23,9 @@ $(function () {
     });
 
 
+
     //=======COUNTER JS=======
     $('.counter').countUp();
-
-
-    //====SCROLL BUTTON JS========
-    var btn = $('.scroll_button');
-
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > 300) {
-            btn.addClass('show');
-        } else {
-            btn.removeClass('show');
-        }
-    });
-
-    btn.on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: 0 }, '300');
-    });
 
 
     //======category slider======
@@ -116,9 +102,6 @@ $(function () {
             }
         ]
     });
-
-
-
 
 
     //======listing slider======
@@ -234,8 +217,6 @@ $(function () {
         ]
     });
 
-
-
     //======testimonial slider======
     $('.testimonial_slider').slick({
         slidesToShow: 1,
@@ -246,36 +227,7 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="fas fa-long-arrow-right nextArrow"></i>',
         prevArrow: '<i class="fas fa-long-arrow-left prevArrow"></i>',
-
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
     });
-
-
 
 
     //======testimonial 2 slider======
@@ -288,6 +240,32 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="fas fa-long-arrow-right nextArrow"></i>',
         prevArrow: '<i class="fas fa-long-arrow-left prevArrow"></i>',
+    });
+
+    //======testimonial 3 slider======
+    $('.testimonial_3_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+    });
+
+
+    //======destination 3 slider======
+    $('.destination_3_slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
 
         responsive: [
             {
@@ -318,13 +296,111 @@ $(function () {
     });
 
 
+    //======brand  slider======
+    $('.brand_slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: false,
+        arrows: false,
+    });
 
 
+    //======select js=======
+    $('.select_js').niceSelect();
 
 
+    //======WOW JS========
+    new WOW().init();
 
 
+    //======STICKY SIDEBAR======= 
+    $(".sticky_sidebar").stickit({
+        top: 90,
+    })
 
 
+    //=====LOGIN PASSWORD======== 
+    $(".show_password").on("click", function () {
+        $(".show_password").toggleClass("show");
+    });
+
+    $(".show_confirm_password").on("click", function () {
+        $(".show_confirm_password").toggleClass("show");
+    });
+
+
+    //=====BARFILLER BAR=====
+    $(document).ready(function () {
+        $('#bar1').barfiller();
+        $('#bar2').barfiller();
+        $('#bar3').barfiller();
+        $('#bar4').barfiller();
+        $('#bar5').barfiller();
+        $('#bar6').barfiller();
+        $('#bar7').barfiller();
+        $('#bar8').barfiller();
+    });
+
+
+    //=====SUMMER NOTE======== 
+    $(document).ready(function () {
+        $('.summer_note').summernote();
+    });
+
+
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
+
+
+    //======related listing slider======
+    $('.related_listing_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    //======dsahboard menu icon======
+    $(".sidebar_menu_icon").on("click", function () {
+        $(".dashboard_sidebar").toggleClass("dash_show_menu");
+    });
 
 });

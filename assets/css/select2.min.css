@@ -210,8 +210,8 @@
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    border-bottom: 2px solid var(--colorBlack);
-    border-right: 2px solid var(--colorBlack);
+    border-bottom: 1px solid var(--paraColor);
+    border-right: 1px solid var(--paraColor);
     content: '';
     display: block;
     width: 7px;
@@ -474,8 +474,8 @@
 }
 
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-    background-color: #ddd;
-    /* color: white; */
+    background-color: var(--colorBlack);
+    color: white
 }
 
 .select2-container--default .select2-results__group {

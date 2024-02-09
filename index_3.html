@@ -3,16 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <title>LIST omg - Directory & Listings HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LISTomg - Directory & Listings HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/utilities.css">
-    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
-
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="assets/css/summernote.min.css">
+    <link rel="stylesheet" href="assets/css/scroll_button.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -262,7 +266,7 @@
     <!--=============================
         LISTING 3 START
     ==============================-->
-    <section class="listing_3 pt_115 xs_pt_95 pb_120 xs_pb_100">
+    <section class="listing_3 pt_115 xs_pt_95 pb_115 xs_pb_95">
         <div class="container">
             <div class="row justify-content-between mb_60">
                 <div class="col-xl-6">
@@ -432,56 +436,188 @@
     ==============================-->
 
 
-
     <!--=============================
         DESTINATION 3 START
     ==============================-->
-    <section class="destination_3 pt_115 xs_pt_95 pb_120 xs_pb_100">
+    <section class="destination_3 pb_110 xs_pb_90">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
-                    <div class="section_title_3 mb_60">
+                    <div class="section_title_3 mb_50">
                         <h4>Leading Districts</h4>
                         <h2>Most Popular Cities</h2>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row destination_3_slider">
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_9.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>Paris colors</h6>
+                            <h4>Gorgeous autumn</h4>
+                            <p>35+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_8.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>Japan</h6>
+                            <h4>Football-Playing</h4>
+                            <p>26+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_10.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>Singapore</h6>
+                            <h4>Hong-kong garden</h4>
+                            <p>67+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_11.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>Indonesia</h6>
+                            <h4>Young Dancing Club</h4>
+                            <p>48+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_12.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>England</h6>
+                            <h4>Camera-Oxford</h4>
+                            <p>73+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_13.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>Germany</h6>
+                            <h4>Hotel Resort Casino</h4>
+                            <p>24+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <div class="col-xl-2">
+                <a href="#" class="destination_3_item">
+                    <img src="assets/images/destination_10.jpg" alt="img" class="img-fluid w-100">
+                    <div class="destination_3_item_overly">
+                        <div class="text">
+                            <h6>Singapore</h6>
+                            <h4>Hong-kong garden</h4>
+                            <p>67+ listings</p>
+                        </div>
+                    </div>
+                    <span><i class="far fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--=============================
         DESTINATION 3 END
     ==============================-->
 
 
-
-
-
-
-
+    <!--=============================
+        TESTIMONIAL 3 START
+    ==============================-->
+    <section class="testimonial_3 pb_120 xs_pt_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section_title_3 mb_50">
+                        <h4>Client Testimonials</h4>
+                        <h2>Favorable Client Feedback</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="row testimonial_3_slider">
+                        <div class="col-xl-12">
+                            <div class="testimonial_2_item testimonial_3_item">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <p>“Morbi consectetur elementum purus mattis cursus purus vel metus iaculis
+                                    sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque
+                                    amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet lacinia
+                                    est, vitae tristique metus tempor nibh ultricies.”</p>
+                                <h4>Dominic L. Emen</h4>
+                                <h6>Product Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="testimonial_2_item testimonial_3_item">
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <p>“Morbi consectetur elementum purus mattis cursus purus vel metus iaculis
+                                    sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque
+                                    amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet lacinia
+                                    est, vitae tristique metus tempor nibh ultricies.”</p>
+                                <h4>Dominic L. Emen</h4>
+                                <h6>Product Designer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="testimonial_3_item_img">
+                        <img src="assets/images/Testimonial_3_img.png" alt="img" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================
+        TESTIMONIAL 3 END
+    ==============================-->
 
 
     <!-- =============================
-        PRICING START
+        PRICING 3 START
     ==============================-->
-    <!-- <section class="pricing pt_115 xs_pt_95 pb_120 xs_pb_100">
+    <section class="pricing pricing_3 pt_115 xs_pt_95 pb_120 xs_pb_100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
@@ -640,17 +776,139 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!--=============================
-        PRICING END
+        PRICING 3 END
     ============================== -->
+
+
+    <!--=============================
+        BLOG 3 START
+    ==============================-->
+    <section class="blog_3 pt_115 xs_pt_95 pb_120 xs_pb_100">
+        <div class="container">
+            <div class="row justify-content-between mb_50">
+                <div class="col-xl-6">
+                    <div class="section_title_3 section_title_left_3">
+                        <h4>Read Our Blog</h4>
+                        <h2>Latest Tips & Blog</h2>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="all_feature_link">
+                        <a href="#">See all Blogs<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4">
+                    <a href="#" class="blog_3_item">
+                        <img src="assets/images/blog_7.jpg" alt="blog" class="img-fluid w-100">
+                        <p class="item">Sports</p>
+                        <div class="blog_3_overly">
+                            <div class="text">
+                                <p class="date"><span><img src="assets/images/calender_3.png" alt="icon"
+                                            class="img-fluid w-100"></span>March 24, 2024</p>
+                                <b>The Most In-Demand Contemporary Prime Spots List.</b>
+                                <p class="owner">
+                                    <span><img src="assets/images/blog_3_owner_1.png" alt="person"
+                                            class="img-fluid w-100"></span>
+                                    By Douglas Lyphe
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-4">
+                    <a href="#" class="blog_3_item">
+                        <img src="assets/images/blog_8.jpg" alt="blog" class="img-fluid w-100">
+                        <p class="item">Travel</p>
+                        <div class="blog_3_overly">
+                            <div class="text">
+                                <p class="date"><span><img src="assets/images/calender_3.png" alt="icon"
+                                            class="img-fluid w-100"></span>March 24, 2024</p>
+                                <b>The Hottest Up-&-Coming Top Destinations Index.</b>
+                                <p class="owner">
+                                    <span><img src="assets/images/blog_3_owner_2.png" alt="person"
+                                            class="img-fluid w-100"></span>
+                                    By Hugh Saturation
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-4">
+                    <a href="#" class="blog_3_item">
+                        <img src="assets/images/blog_9.jpg" alt="blog" class="img-fluid w-100">
+                        <p class="item">Location</p>
+                        <div class="blog_3_overly">
+                            <div class="text">
+                                <p class="date"><span><img src="assets/images/calender_3.png" alt="icon"
+                                            class="img-fluid w-100"></span>March 24, 2024</p>
+                                <b>The Pinnacle of Street 50 Great Pieces in London.</b>
+                                <p class="owner">
+                                    <span><img src="assets/images/blog_3_owner_3.png" alt="person"
+                                            class="img-fluid w-100"></span>
+                                    By Hugh Millie
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================
+        BLOG 3 END
+    ==============================-->
 
 
     <!--=============================
         FOOTER START
     ==============================-->
-    <footer class="footer">
-        <div class="footer_area pt_120 xs_pt_100 pb_115 xs_pb_95">
+    <footer class="footer footer_3">
+        <div class="container">
+            <div class="footer_brand">
+                <div class="row brand_slider">
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_1.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_2.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_3.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_4.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_5.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_6.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="footer_brand_item">
+                            <img src="assets/images/brand_4.png" alt="brand" class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_area pt_100 xs_pt_80 pb_115 xs_pb_95">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3">
@@ -749,26 +1007,18 @@
     ==============================-->
 
 
-    <!--=============================
+    <!--================================
         SCROLL BUTTON START
-    ==============================-->
-    <div class="scroll_button scroll_button_2">
-        <i class="far fa-long-arrow-up" aria-hidden="true"></i>
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
     </div>
-    <!--=============================
+    <!--================================
         SCROLL BUTTON END
-    ==============================-->
+    =================================-->
 
-
-
-
-    <!--=============================
-        COMMON 3 START
-    ==============================-->
-
-    <!--=============================
-        COMMON 3 END
-    ==============================-->
 
 
     <!--jquery library js-->
@@ -777,16 +1027,30 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="assets/js/Font-Awesome.js"></script>
-    <!--countup js-->
-    <script src="assets/js/jquery.countup.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <!--select_2 js-->
+    <!--nice-select js-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--select-2 js-->
     <script src="assets/js/select2.min.js"></script>
-    <!--slick_slider js-->
+    <!--slick js-->
     <script src="assets/js/slick.min.js"></script>
+    <!--wow js-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--animated barfiller js-->
+    <script src="assets/js/animated_barfiller.js"></script>
+    <!--simple-bar-graph js-->
+    <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--summernote js-->
+    <script src="assets/js/summernote.min.js"></script>
+    <!--scroll button js-->
+    <script src="assets/js/scroll_button.js"></script>
+    <!--count up js-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.min.js"></script>
 
-    <!--main/custom js-->
-    <script src="assets/js/main.js"></script>
+    <!--script/custom js-->
+    <script src="assets/js/script.js"></script>
 
 </body>
 

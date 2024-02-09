@@ -3,16 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <title>LIST omg - Directory & Listings HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LISTomg - Directory & Listings HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/utilities.css">
-    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
-
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="assets/css/summernote.min.css">
+    <link rel="stylesheet" href="assets/css/scroll_button.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -565,9 +569,9 @@
     <!--=============================
         TESTIMONIAL 2 START
     ==============================-->
-    <section class="testimonial_2 pt_95 xs_pt_70 pb_100 xs_pb_80">
+    <section class="testimonial_2 pt_95 xs_pt_70 pb_70 xs_pb_50">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-xl-5">
                     <div class="testimonial_2_img">
                         <img src="assets/images/testimonial_img.png" alt="img" class="img-fluid w-100">
@@ -579,7 +583,24 @@
                             <h4>Client Testimonials</h4>
                             <h2>Customer Testimonies From Recent Interactions.</h2>
                         </div>
-                        <div class="row">
+                        <div class="row testimonial_slider">
+                            <div class="col-xl-12">
+                                <div class="testimonial_2_item">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <p>“Morbi consectetur elementum purus mattis cursus purus vel metus iaculis
+                                        sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque
+                                        amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet lacinia
+                                        est, vitae tristique metus tempor nibh ultricies.”</p>
+                                    <h4>Dominic L. Emen</h4>
+                                    <h6>Product Designer</h6>
+                                </div>
+                            </div>
                             <div class="col-xl-12">
                                 <div class="testimonial_2_item">
                                     <span>
@@ -957,15 +978,19 @@
     ==============================-->
 
 
-    <!--=============================
+    <!--================================
         SCROLL BUTTON START
-    ==============================-->
-    <div class="scroll_button scroll_button_2">
-        <i class="far fa-long-arrow-up" aria-hidden="true"></i>
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
     </div>
-    <!--=============================
+    <!--================================
         SCROLL BUTTON END
-    ==============================-->
+    =================================-->
+
+
 
     <!--jquery library js-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -973,16 +998,30 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="assets/js/Font-Awesome.js"></script>
-    <!--countup js-->
-    <script src="assets/js/jquery.countup.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <!--select_2 js-->
+    <!--nice-select js-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--select-2 js-->
     <script src="assets/js/select2.min.js"></script>
-    <!--slick_slider js-->
+    <!--slick js-->
     <script src="assets/js/slick.min.js"></script>
+    <!--wow js-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--animated barfiller js-->
+    <script src="assets/js/animated_barfiller.js"></script>
+    <!--simple-bar-graph js-->
+    <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--summernote js-->
+    <script src="assets/js/summernote.min.js"></script>
+    <!--scroll button js-->
+    <script src="assets/js/scroll_button.js"></script>
+    <!--count up js-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.min.js"></script>
 
-    <!--main/custom js-->
-    <script src="assets/js/main.js"></script>
+    <!--script/custom js-->
+    <script src="assets/js/script.js"></script>
 
 </body>
 

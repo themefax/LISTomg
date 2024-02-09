@@ -3,16 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <title>LIST omg - Directory & Listings HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LISTomg - Directory & Listings HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/utilities.css">
-    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
-
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="assets/css/summernote.min.css">
+    <link rel="stylesheet" href="assets/css/scroll_button.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -43,19 +47,16 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Listing <i class="far fa-angle-down"></i></a>
-                        <ul class="droap_menu">
-                            <li><a href="#">Listing 1</a></li>
-                            <li><a href="#">Listing 2</a></li>
-                            <li><a href="#">Listing 3</a></li>
-                        </ul>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">user panel <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link" href="#">Listing <i class="far fa-angle-down"></i></a>
                         <ul class="droap_menu">
-                            <li><a href="#">user panel 1</a></li>
-                            <li><a href="#">user panel 2</a></li>
-                            <li><a href="#">user panel 3</a></li>
+                            <li><a href="listing_grid_view.html">listing grid view</a></li>
+                            <li><a href="listing_list_view.html">listing list view</a></li>
+                            <li><a href="listing_left_sidebar.html">listing left sidebar</a></li>
+                            <li><a href="listing_right_sidebar.html">listing right sidebar</a></li>
+                            <li><a href="listing_details.html">listing details</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -78,18 +79,20 @@
                             <li><a href="#">page 1</a></li>
                         </ul>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
                 </ul>
                 <ul class="menu_right d-flex align-items-center">
                     <li>
-                        <a class="user_login" href="#">
+                        <a class="user_login" href="dashboard.html">
                             <span> <img src="assets/images/login_icon.png" alt="user" class="img-fluid w-100">
                             </span>
-                            Log in
+                            Account
                         </a>
                     </li>
                     <li class="menu_btn">
-                        <a href="#">Add Listing <i class="far fa-plus"></i></a>
+                        <a class="common_btn" href="#">Add Listing <i class="far fa-plus"></i></a>
                     </li>
                 </ul>
             </div>
@@ -1047,15 +1050,18 @@
     ==============================-->
 
 
-    <!--=============================
+    <!--================================
         SCROLL BUTTON START
-    ==============================-->
-    <div class="scroll_button">
-        <i class="far fa-long-arrow-up" aria-hidden="true"></i>
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
     </div>
-    <!--=============================
+    <!--================================
         SCROLL BUTTON END
-    ==============================-->
+    =================================-->
+
 
 
     <!--jquery library js-->
@@ -1064,16 +1070,30 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="assets/js/Font-Awesome.js"></script>
-    <!--countup js-->
-    <script src="assets/js/jquery.countup.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <!--select_2 js-->
+    <!--nice-select js-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--select-2 js-->
     <script src="assets/js/select2.min.js"></script>
-    <!--slick_slider js-->
+    <!--slick js-->
     <script src="assets/js/slick.min.js"></script>
+    <!--wow js-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--animated barfiller js-->
+    <script src="assets/js/animated_barfiller.js"></script>
+    <!--simple-bar-graph js-->
+    <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--summernote js-->
+    <script src="assets/js/summernote.min.js"></script>
+    <!--scroll button js-->
+    <script src="assets/js/scroll_button.js"></script>
+    <!--count up js-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.min.js"></script>
 
-    <!--main/custom js-->
-    <script src="assets/js/main.js"></script>
+    <!--script/custom js-->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
