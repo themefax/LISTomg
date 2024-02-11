@@ -5586,10 +5586,6 @@ button {
     margin-bottom: 15px;
 }
 
-.sidebar_search {
-    /* padding-top: 0 !important; */
-}
-
 .sidebar_search form {
     position: relative;
 }
@@ -5680,11 +5676,6 @@ button {
 .property_left_sidebar .single_property {
     margin-top: 0;
     margin-bottom: 25px;
-}
-
-.property_right_sidebar .property_sidebar {
-    /* border-right: 0; */
-    /* border-left: 1px solid rgba(3, 26, 38, 0.10); */
 }
 
 .property_right_sidebar .sidebar_wizerd {
