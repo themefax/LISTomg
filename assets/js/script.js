@@ -33,7 +33,7 @@ $(function () {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1300,
+        autoplaySpeed: 4000,
         dots: false,
         arrows: false,
 
@@ -71,7 +71,7 @@ $(function () {
         slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1300,
+        autoplaySpeed: 4000,
         dots: false,
         arrows: false,
 
@@ -109,7 +109,7 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 4000,
         dots: true,
         arrows: false,
 
@@ -185,8 +185,8 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
-        dots: false,
+        autoplaySpeed: 4000,
+        dots: true,
         arrows: false,
 
         responsive: [
@@ -301,7 +301,7 @@ $(function () {
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 4000,
         dots: false,
         arrows: false,
     });
@@ -361,7 +361,7 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 4000,
         dots: false,
         arrows: false,
 
