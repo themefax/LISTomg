@@ -1,9 +1,11 @@
 /****************************************
-Template Name: FaxEstate - Real Estate & Property HTML5 Template.
+Template Name: LISTomg - Directory & Listings HTML Template.
 Author: ThemeLab-Portfolio 
 Author Email: themelab.bd@gmail.com
 Version: 1.0
-Description: FaxEstate offers a full range of real estate solutions. It is especially made for any kind of real estate listing, including apartments, rentals, and agencies. The Bootstrap 5 framework was used to create the high-end HTML5 template FaxEstate, which is intended for real estate-related websites. Excellent responsiveness was used in the construction of the entire template. It has all the components you require for an effective real estate company website.
+Description: LISTomg Listings and Directory HTML Template is a contemporary, well-designed HTML5 directory template. The best uses for the LISTomg directory are for listings, real estate, hotels, cafes, and restaurants, as well as agencies and agent organizations. This company template is useful for corporate companies and directory agencies to have an internet presence.
+
+In addition to other features specific to this niche market, it boasts an attractive user interface (UI), directory listings, a dashboard page where users may submit new listings and listing details, a sophisticated directory filter and search, listing maps, and various persona styles. enumerate pages and further information.
 
 W3C HTML validation coding and 100% responsive, mobile-friendly design are guaranteed by FaxEstate. Because all of the HTML, CSS, and JS code is clearly commented, customising it is simple.e easily customized.
 ***************************************
@@ -125,7 +127,6 @@ button {
     --bodyFont: 'Poppins', sans-serif;
     --cursiveFont: 'Sansita Swashed', sans-serif;
 }
-
 
 .section_title h4 {
     font-size: 18px;
@@ -435,7 +436,6 @@ button {
 .item_title {
     font-size: 20px;
     font-weight: 600;
-    /* font-family: var(--headingFont); */
     color: var(--colorBlack);
     display: block;
     transition: all linear .3s;
@@ -671,6 +671,12 @@ button {
     -o-transform: scale(1);
 }
 
+.main_menu .common_btn,
+.main_menu .common_btn_2,
+.main_menu .common_btn_3 {
+    margin-top: 7px;
+}
+
 .main_menu.menu_fix {
     left: 0;
     top: 0;
@@ -750,7 +756,7 @@ button {
 
 .banner_contant h1 {
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 84px;
     text-align: center;
     text-transform: uppercase;
@@ -1185,7 +1191,7 @@ button {
 .listing_bottom ul li span {
     display: inline-block;
     width: 16px;
-    height: 14px;
+    height: 16px;
     margin-right: 7px;
 }
 
@@ -3978,13 +3984,13 @@ button {
 }
 
 .about_area_img_2 {
-    height: 285px;
+    height: 535px;
 }
 
-.about_area_img_3 {
+/* .about_area_img_3 {
     height: 225px;
     margin-top: 25px;
-}
+} */
 
 .about_text {
     height: 100%;
@@ -4048,16 +4054,10 @@ button {
 .single_amenites li a {
     font-size: 16px;
     font-weight: 500;
-    /* font-family: var(--paraFont); */
     padding: 14px 30px;
     color: var(--paraColor);
     background: var(--colorWhite);
     filter: drop-shadow(0px 2px 5px rgba(3, 26, 38, 0.10));
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -4143,8 +4143,8 @@ button {
     margin-top: 20px;
     margin-right: 20px;
     padding: 2px 10px;
-    color: var(--colorWhite);
-    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    background: var(--colorYellow);
 }
 
 .single_agent_overly ul {
@@ -4173,8 +4173,8 @@ button {
     line-height: 34px;
     text-align: center;
     margin: 0px 3px;
-    color: var(--colorWhite);
-    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    background: var(--colorYellow);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -4188,7 +4188,7 @@ button {
 }
 
 .single_agent_overly ul li a:hover {
-    color: var(--colorPrimary);
+    /* color: var(--colorPrimary); */
     background: var(--colorWhite) !important;
 }
 
@@ -4488,8 +4488,8 @@ button {
     line-height: 34px;
     text-align: center;
     margin-bottom: 10px;
-    color: var(--colorPrimary);
-    background: var(--colorWhite);
+    color: var(--colorBlack);
+    background: var(--colorYellow);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -4511,8 +4511,8 @@ button {
 }
 
 .agent_details_area_text h2 {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -4536,8 +4536,8 @@ button {
 }
 
 .agent_details_area_text h5 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     margin-top: 28px;
     text-transform: capitalize;
 }
@@ -4576,8 +4576,22 @@ button {
 }
 
 .agent_social_media li a {
-    background: transparent;
+    background: var(--colorWhite);
     border: 1px solid rgba(3, 26, 38, 0.10);
+    padding: 11px 29px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    overflow: hidden;
 }
 
 .agent_social_media li a i {
@@ -4585,7 +4599,7 @@ button {
 }
 
 .agent_social_media li a:hover {
-    color: var(--colorBlack);
+    color: var(--colorWhite);
     background: var(--colorPrimary);
     border-color: var(--colorPrimary);
 }
@@ -4594,13 +4608,17 @@ button {
     text-align: start;
 }
 
+.agent_property_list .listing_bottom ul li {
+    align-items: initial;
+}
+
 .agent_property_quantity {
     text-align: right;
 }
 
 .agent_property_quantity p {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: var(--headingFont);
     color: var(--colorBlack);
     padding-bottom: 10px;
@@ -4619,6 +4637,14 @@ button {
     background: var(--colorBlack);
 }
 
+.agencies_details .single_agent_img {
+    height: 290px;
+}
+
+.agencies_details .listing_bottom ul li {
+    align-items: initial;
+}
+
 /*=============================
     AGENT DETAILS END
 =============================*/
@@ -4628,7 +4654,7 @@ button {
     BLOG DETAILS START
 =============================*/
 .blog_details_img_1 {
-    height: 370px;
+    height: 500px;
 }
 
 .blog_details_engage {
@@ -4644,14 +4670,16 @@ button {
 }
 
 .blog_details_engage li span {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     display: inline-block;
+    position: relative;
+    top: -2px;
 }
 
 .blog_details_left h2 {
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 30px;
 }
 
@@ -4665,7 +4693,7 @@ button {
     margin-top: 50px;
     position: relative;
     padding: 60px 50px 60px 108px;
-    background: rgba(3, 26, 38, 0.04);
+    background: var(--lightBg);
 }
 
 .blog_details_review p {
@@ -4734,7 +4762,7 @@ button {
 .blog_shear_area_left h5,
 .blog_shear_area_right h5 {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: var(--headingFont);
     color: var(--colorBlack);
     margin-right: 15px;
@@ -4753,6 +4781,11 @@ button {
     background: transparent;
     border: 1px solid rgba(3, 26, 38, 0.10);
     margin-bottom: -7px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .blog_details_tag li a:hover {
@@ -4819,7 +4852,7 @@ button {
 
 .blog_comment_text h4 {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 8px;
     text-transform: capitalize;
 }
@@ -4912,7 +4945,6 @@ button {
 .blog_details_right form {
     margin: 25px;
     position: relative;
-    /* padding-bottom: 40px; */
 }
 
 .blog_details_right form input {
@@ -4926,8 +4958,8 @@ button {
     line-height: 40px;
     background: var(--colorPrimary);
     color: var(--colorWhite);
-    top: 8px;
-    right: 8px;
+    top: 4px;
+    right: 4px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -4966,7 +4998,7 @@ button {
 
 .blog_owner h4 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 30px;
     color: var(--colorWhite);
     text-transform: capitalize;
@@ -5015,7 +5047,7 @@ button {
 
 .blog_details_right_header h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -5049,7 +5081,7 @@ button {
 
 .categories_property {
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 
 .categories_property li a {
@@ -5058,6 +5090,7 @@ button {
     margin-top: 15px;
     background: transparent;
     border: 1px solid rgba(3, 26, 38, 0.10);
+    transition: all linear .3s;
 }
 
 .categories_property li a:hover {
@@ -5124,13 +5157,17 @@ button {
 }
 
 .blog_state p b {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .blog_state .read_btn {
     font-size: 16px;
     font-weight: 600;
     border-bottom: 1px solid var(--colorBlack);
+}
+
+.blog_state .read_btn i {
+    margin-left: 5px;
 }
 
 /*=============================
@@ -5142,7 +5179,7 @@ button {
     CHECKOUT PAGE START
 =============================*/
 .checkout_area {
-    background: #F3F5F9;
+    background: var(--lightBg);
 }
 
 .checkout_left {
@@ -5153,7 +5190,7 @@ button {
 
 .checkout_heading {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -5187,7 +5224,7 @@ button {
 
 .reservation_details h4 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
     border-bottom: 1px solid #eee;
     padding-bottom: 15px;
@@ -5237,7 +5274,7 @@ button {
 =============================*/
 .contact_address h4 {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -5325,7 +5362,7 @@ button {
     FAQ PAGE START
 =============================*/
 .faq_area {
-    background: #F3F5F9;
+    background: var(--lightBg);
 }
 
 .faq_accordion .accordion-item {
@@ -5336,7 +5373,7 @@ button {
 
 .faq_accordion button {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: var(--headingFont);
     margin-top: 13px;
     padding: 22px 20px 22px 70px;
@@ -5401,7 +5438,7 @@ button {
     LOGIN PAGE START
 =============================*/
 .login_area {
-    background: #F3F5F9;
+    background: var(--lightBg);
 }
 
 .main_login_area {
@@ -5414,7 +5451,7 @@ button {
 
 .login_text h4 {
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 30px;
 }
@@ -5425,7 +5462,7 @@ button {
 
 .single_input label {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: var(--headingFont);
     color: var(--colorBlack);
     margin-bottom: 8px;
@@ -5483,7 +5520,7 @@ button {
 }
 
 .single_input .forget_password:hover {
-    color: var(--colorBlack);
+    color: var(--colorRed);
 }
 
 .login_text .common_btn {
@@ -5499,7 +5536,7 @@ button {
 
 .login_text p a {
     margin-left: 5px;
-    color: var(--colorBlue);
+    color: var(--colorPrimary);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -5606,7 +5643,7 @@ button {
     PRIVACY POLICY START
 =============================*/
 .privacy_policy {
-    background: #F3F5F9;
+    background: var(--lightBg);
 }
 
 .privacy_policy_area {
@@ -5617,7 +5654,7 @@ button {
 
 .privacy_policy_area h4 {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 25px;
 }
 
@@ -5629,7 +5666,7 @@ button {
 
 .privacy_policy_area h5 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 25px;
 }
 
@@ -5686,13 +5723,13 @@ button {
 
 .main_error h2 {
     font-size: 200px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
 .main_error h4 {
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 25px;
     text-align: center;
 }
@@ -5741,8 +5778,8 @@ button {
 
 .sidebar_wizerd .accordion-button,
 .sidebar_wizerd h3 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 15px;
 }
@@ -5762,8 +5799,8 @@ button {
     line-height: 40px;
     background: var(--colorPrimary);
     color: var(--colorWhite);
-    top: 8px;
-    right: 8px;
+    top: 4px;
+    right: 4px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -5833,14 +5870,19 @@ button {
     -o-transform: rotateX(180deg);
 }
 
-.property_right_sidebar .single_property,
-.property_left_sidebar .single_property {
+.property_right_sidebar .listing_item,
+.property_left_sidebar .listing_item {
     margin-top: 0;
     margin-bottom: 25px;
 }
 
 .property_right_sidebar .sidebar_wizerd {
     padding-left: 25px;
+}
+
+.property_right_sidebar .listing_bottom ul li,
+.property_left_sidebar .listing_bottom ul li {
+    align-items: initial;
 }
 
 /*=============================
@@ -5899,7 +5941,7 @@ button {
 }
 
 .pay_modal_info ul li {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--paraColor);
     position: relative;
     padding-left: 30px;
@@ -6058,6 +6100,15 @@ button {
 
 .single_agencies_text .social_link li a {
     color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_agencies_text .social_link li a:hover {
+    color: var(--colorPrimary);
 }
 
 .single_agencies:hover .single_agencies_img img {
@@ -6076,19 +6127,12 @@ button {
     AGENCIES DETAILS START
 =============================*/
 .agencies_details_img {
-    height: 370px;
+    height: 500px;
     overflow: hidden;
 }
 
 .agencies_details_header {
     margin-top: 25px;
-    /* width: 80%; */
-    /* margin-left: 10%; */
-    /* background: var(--colorWhite); */
-    /* overflow: hidden; */
-    /* position: relative; */
-    /* z-index: 1; */
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 
@@ -6167,7 +6211,7 @@ button {
 .agencies_property_heading {
     border-bottom: 1px solid rgba(3, 26, 38, 0.10);
     padding-bottom: 5px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -6212,7 +6256,7 @@ button {
     PROPERTY DETAILS START
 =============================*/
 .property_details {
-    background: #F3F5F9;
+    background: var(--lightBg);
 }
 
 .single_property_details {
@@ -6223,7 +6267,7 @@ button {
 
 .single_property_details h4 {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .property_details_share {
@@ -6275,7 +6319,7 @@ button {
     margin-right: 5px;
 }
 
-.property_details_address ul li span {
+/* .property_details_address ul li span {
     font-size: 14px;
     padding: 4px 12px;
     font-weight: 500;
@@ -6290,7 +6334,7 @@ button {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-}
+} */
 
 .property_details_address h3 {
     font-size: 24px;
@@ -6360,7 +6404,7 @@ button {
     font-size: 15px;
     font-weight: 400;
     padding-left: 28px;
-    font-family: var(--headingFont);
+    text-transform: capitalize;
 }
 
 .property_facilities ul li::after {
@@ -6409,12 +6453,12 @@ button {
 .apartment_review_counter {
     padding: 35px 40px 40px 40px;
     text-align: center;
-    background: #F3F5F9;
+    background: var(--lightBg);
 }
 
 .apartment_review_counter h3 {
     font-size: 54px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .apartment_review_counter p {
@@ -6434,7 +6478,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0px 30px 0px;
-    border-bottom: 1px solid rgb(3 26 38 / 4%);
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
 }
 
 .single_review:last-child {
@@ -6458,8 +6502,8 @@ button {
 }
 
 .single_review_text h3 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
@@ -6492,7 +6536,7 @@ button {
 
 .apertment_form_input label {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: var(--headingFont);
     text-transform: capitalize;
 }
@@ -6560,6 +6604,86 @@ button {
     text-align: center;
 }
 
+.sidebar_reservation {
+    padding: 35px;
+}
+
+.sidebar_reservation h3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sidebar_reservation {
+    background: var(--colorWhite);
+    box-shadow: none;
+    margin: 0;
+}
+
+.sidebar_reservation form {
+    margin-top: 3px;
+}
+
+.sidebar_reservation_input {
+    margin-top: 20px;
+}
+
+.sidebar_reservation_input p {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.sidebar_reservation input {
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 1px solid #EFEEEE;
+    background: var(--colorWhite);
+    padding: 13px 15px;
+}
+
+.sidebar_reservation input::placeholder {
+    color: var(--colorBlack);
+}
+
+.sidebar_reservation .quentity_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #EFEEEE;
+    background: var(--colorWhite);
+    padding: 0px 15px;
+}
+
+.sidebar_reservation .quentity_btn button {
+    font-size: 23px;
+    color: var(--colorBlack);
+    padding: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border: none;
+}
+
+.sidebar_reservation .quentity_btn button:hover {
+    color: var(--colorPrimary);
+}
+
+.sidebar_reservation .quentity_btn input {
+    width: 60px;
+    text-align: center;
+    height: auto;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .sales_executive {
     margin-top: 25px;
     padding: 60px 0px;
@@ -6587,7 +6711,7 @@ button {
 
 .sales_executive_name {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 30px;
     color: var(--colorWhite);
     text-transform: capitalize;
@@ -6640,7 +6764,7 @@ button {
 
 .property_details_bottom h4 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -6649,9 +6773,8 @@ button {
 }
 
 .property_details_large_img {
-    height: 450px;
+    height: 500px;
     overflow: hidden;
-    /* margin: 0px 12px; */
 }
 
 .property_details_slider .slider-nav2 {
@@ -6847,8 +6970,8 @@ button {
 }
 
 .dashboard_sidebar_user .img label:hover {
-    background: var(--colorPrimary);
-    border-color: var(--colorPrimary);
+    background: var(--colorYellow);
+    border-color: var(--colorYellow);
     color: var(--colorBlack);
 }
 
@@ -6857,8 +6980,8 @@ button {
     margin-top: 22px;
     margin-bottom: 5px;
     text-align: center;
-    font-weight: 700;
-    color: var(--colorPrimary);
+    font-weight: 600;
+    color: var(--colorYellow);
 }
 
 .dashboard_sidebar_user p {
@@ -6908,7 +7031,7 @@ button {
 
 .dashboard_sidebar_menu ul li a:hover,
 .dashboard_sidebar_menu ul li a.active {
-    color: var(--colorPrimary);
+    color: var(--colorYellow);
     opacity: 1;
     background: #ffe90014;
 }
@@ -6925,13 +7048,13 @@ button {
     width: 85%;
     margin-left: auto;
     padding: 30px;
-    background: var(--colorLightBg);
     min-height: 100vh;
+    /* background: var(--lightBg); */
 }
 
 .dashboard_content .dashboard_title {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
@@ -7004,13 +7127,13 @@ button {
 
 .overview_listing table {
     width: 100%;
-    border: 1px solid rgb(3 26 38 / 4%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
 }
 
 .overview_listing table tr th,
 .overview_listing table tr td {
     padding: 10px;
-    border-right: 1px solid rgb(3 26 38 / 4%);
+    border-right: 1px solid rgba(3, 26, 38, 0.10);
 }
 
 .overview_listing table tr th {
@@ -7021,7 +7144,7 @@ button {
 }
 
 .overview_listing table tr td {
-    border-bottom: 1px solid rgb(3 26 38 / 4%);
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
 }
 
 .overview_listing table tr .images {
@@ -7121,7 +7244,7 @@ button {
 }
 
 .dashboard_overview_review {
-    border: 1px solid rgb(3 26 38 / 4%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
     padding: 20px;
     margin-top: 25px;
     padding-bottom: 0;
@@ -7129,8 +7252,8 @@ button {
 
 .dashboard_overview_review h2 {
     font-size: 20px;
-    font-weight: 700;
-    border-bottom: 1px solid rgb(3 26 38 / 4%);
+    font-weight: 600;
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
     padding-bottom: 5px;
 }
 
@@ -7145,21 +7268,21 @@ button {
 }
 
 .overview_chart {
-    border: 1px solid rgb(3 26 38 / 4%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
     padding: 20px;
     margin-top: 25px;
 }
 
 .dashboard_overview .review_progressbar {
-    border: 1px solid rgb(3 26 38 / 4%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
     padding: 20px;
     margin-top: 25px;
 }
 
 .dashboard_overview .review_progressbar h3 {
     font-size: 20px;
-    font-weight: 700;
-    border-bottom: 1px solid rgb(3 26 38 / 4%);
+    font-weight: 600;
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
     padding-bottom: 5px;
 }
 
@@ -7252,7 +7375,7 @@ button {
     line-height: 40px;
     text-align: center;
     background: var(--colorPrimary);
-    color: var(--colorBlack);
+    color: var(--colorWhite);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -7351,7 +7474,7 @@ button {
 
 /* dashboard reviews start */
 .dashboard_reviews {
-    border: 1px solid rgb(3 26 38 / 4%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
     padding: 20px;
     margin-top: 25px;
     padding-top: 0;
@@ -7382,18 +7505,18 @@ button {
 
 .dashboard_order table {
     width: 100%;
-    border: 1px solid rgb(3 26 38 / 4%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
     margin: 0;
 }
 
 .dashboard_order table tr {
-    border-bottom: 1px solid rgb(3 26 38 / 4%);
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
 }
 
 .dashboard_order table tr th,
 .dashboard_order table tr td {
     padding: 10px 20px;
-    border-right: 1px solid rgb(3 26 38 / 4%);
+    border-right: 1px solid rgba(3, 26, 38, 0.10);
 }
 
 .dashboard_order table tr th {
@@ -7427,6 +7550,7 @@ button {
 
 .dashboard_order table tr .action {
     min-width: 100px;
+    text-align: center;
 }
 
 .dashboard_order table tr .action a {
