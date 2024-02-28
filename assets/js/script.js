@@ -77,27 +77,39 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
                 breakpoint: 1200,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 768,
                 settings: {
                     slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
                 }
             }
         ]
@@ -115,21 +127,15 @@ $(function () {
 
         responsive: [
             {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -155,19 +161,19 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -227,6 +233,33 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="fas fa-long-arrow-right nextArrow"></i>',
         prevArrow: '<i class="fas fa-long-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    // slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    // slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -304,6 +337,33 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
     });
 
 
