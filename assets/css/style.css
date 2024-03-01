@@ -363,7 +363,7 @@ button {
 }
 
 .breadcrumbs_overly {
-    padding: 215px 0px 145px 0px;
+    padding: 210px 0px 150px 0px;
     background: rgb(2 59 89 / 83%);
 }
 
@@ -454,7 +454,6 @@ button {
 }
 
 /* breadcrumb end */
-
 
 /* pagination start */
 #pagination_area ul {
@@ -760,10 +759,6 @@ button {
     display: none;
 }
 
-/* .navbar-toggler.show {
-    background: var(--colorPrimary);
-} */
-
 .navbar-toggler.show .bar_icon {
     display: none;
 }
@@ -772,9 +767,7 @@ button {
     display: block;
 }
 
-
 /* main_manu end */
-
 
 /* banner start */
 .banner {
@@ -877,7 +870,6 @@ button {
 
 /* banner end */
 
-
 /* category start */
 .category_area {
     position: relative;
@@ -938,7 +930,6 @@ button {
 }
 
 /* category end */
-
 
 /* feature start */
 .all_feature_link {
@@ -1068,7 +1059,6 @@ button {
 }
 
 /* feature end */
-
 
 /* listing start */
 .listing {
@@ -1287,7 +1277,6 @@ button {
 
 /* listing end */
 
-
 /* peocess start */
 .process {
     position: relative;
@@ -1349,7 +1338,6 @@ button {
 
 /* peocess end */
 
-
 /* counter start */
 .counter_area ul {
     padding: 45px 0px 40px 0px;
@@ -1386,7 +1374,6 @@ button {
 }
 
 /* counter end */
-
 
 /* pricing start */
 .pricing {
@@ -1605,7 +1592,6 @@ button {
 
 /* pricing end */
 
-
 /* testimonial start */
 .testimonial {
     background-size: cover !important;
@@ -1692,7 +1678,6 @@ button {
 }
 
 /* testimonial end */
-
 
 /* blog start */
 .blog_item {
@@ -1818,7 +1803,6 @@ button {
 }
 
 /* blog end */
-
 
 /* footer start */
 .footer {
@@ -1953,7 +1937,11 @@ button {
 }
 
 .footer_right form button i {
-    rotate: -50deg;
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
 }
 
 .footer_right h5 {
@@ -2006,11 +1994,9 @@ button {
     HOME PAGE 1 END
 =============================*/
 
-
 /*=============================
     HOME PAGE 2 START
 =============================*/
-
 /* main manu 2 start */
 .main_menu_2 .droap_menu li a:hover,
 .main_menu_2 .droap_menu li a.active,
@@ -2034,9 +2020,7 @@ button {
 
 /* main manu 2 end */
 
-
 /* banner 2 start */
-
 .banner_2 {
     background-size: cover !important;
     background-position: center !important;
@@ -2044,7 +2028,7 @@ button {
 }
 
 .banner_2_overly {
-    padding: 230px 0px 210px 0px;
+    padding: 270px 0px 210px 0px;
     background: #00000094;
 }
 
@@ -2109,12 +2093,10 @@ button {
 
 .banner_2 .banner_btn {
     width: 17%;
-    /*! background: var(--colorWhite); */
 }
 
 .banner_2 .banner_btn button {
     height: 100%;
-    /*! padding: 0px 38px !important; */
     width: 100%;
 }
 
@@ -2123,7 +2105,6 @@ button {
 }
 
 /* banner 2 end */
-
 
 /* category 2 start */
 .category_2 {
@@ -2190,7 +2171,6 @@ button {
 }
 
 /* category 2 end */
-
 
 /* listing 2 start */
 .listing_2 {
@@ -2469,7 +2449,6 @@ button {
 
 /* listing 2 end */
 
-
 /* poluar listing start */
 .polular_listing {
     background-size: cover !important;
@@ -2534,7 +2513,6 @@ button {
 
 /* poluar listing end */
 
-
 /* process 2 start */
 .process_2 .section_title_2 span::after {
     top: 25px;
@@ -2543,7 +2521,6 @@ button {
 }
 
 /* process 2 end */
-
 
 /* testimonial start */
 .testimonial_2 {
@@ -2654,7 +2631,6 @@ button {
 
 /* testimonial end */
 
-
 /* destination start */
 .destination .section_title_2 h2 span::after {
     top: 20px;
@@ -2728,7 +2704,7 @@ button {
     font-size: 16px;
     line-height: 44px;
     text-align: center;
-    rotate: -40deg;
+    transform: rotate(-40deg);
     border-radius: 50%;
     background: transparent;
     color: var(--colorBlack);
@@ -2742,6 +2718,10 @@ button {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
 }
 
 .destination_item_1_text span:hover {
@@ -2820,7 +2800,7 @@ button {
     font-size: 16px;
     line-height: 44px;
     text-align: center;
-    rotate: -40deg;
+    transform: rotate(-40deg);
     border-radius: 50%;
     background: transparent;
     color: var(--colorBlack);
@@ -2834,6 +2814,10 @@ button {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
 }
 
 .destination_item_2_text span:hover {
@@ -2843,8 +2827,6 @@ button {
 }
 
 /* destination end */
-
-
 
 /* blog 2 start */
 
@@ -3130,7 +3112,6 @@ button {
     HOME PAGE 2 END
 =============================*/
 
-
 /*=============================
     HOME PAGE 3 START
 =============================*/
@@ -3196,9 +3177,7 @@ button {
 
 /* main menu 3 end */
 
-
 /* banner 3 start */
-
 .banner_3 .banner_overly {
     padding: 292px 0px 230px 0px;
     background: linear-gradient(180deg, rgba(1, 69, 84, 0.64) 0%, rgba(1, 71, 12, 0.64) 100%);
@@ -3282,7 +3261,6 @@ button {
 }
 
 /* banner 3 end */
-
 
 /* category 3 start */
 .categoris_3 {
@@ -3608,7 +3586,6 @@ button {
 
 /* listing 3 end */
 
-
 /* destination 3 start */
 .destination_3_item {
     height: 440px;
@@ -3714,7 +3691,7 @@ button {
 
 .destination_3_item .text {
     position: absolute;
-    bottom: 25px;
+    bottom: 30px;
     left: 30px;
     z-index: 3;
 }
@@ -3762,7 +3739,7 @@ button {
     top: 25px;
     right: 25px;
     font-size: 16px;
-    rotate: -35deg;
+    transform: rotate(-35deg);
     text-align: center;
     color: var(--colorWhite);
     background: rgba(255, 255, 255, 0.40);
@@ -3778,6 +3755,10 @@ button {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     z-index: 4;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
 }
 
 .destination_3_item:hover span {
@@ -3825,7 +3806,6 @@ button {
 }
 
 /* destination 3 end */
-
 
 /* testimonial 3 start */
 .testimonial_3_item {
@@ -3896,7 +3876,6 @@ button {
 }
 
 /* pricing 3 end */
-
 
 /* blog 3 start */
 .blog_3_item {
@@ -4045,9 +4024,7 @@ button {
 
 /* blog 3 end */
 
-
 /* footer 3 start */
-
 .footer_brand {
     padding: 55px 0px 55px 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
@@ -4106,13 +4083,11 @@ button {
 
 /* footer 3 end */
 /*=============================
-     HOME PAGE 3 END
+    HOME PAGE 3 END
 =============================*/
 
-
-
 /*=============================
-     ABOUT PAGE START
+    ABOUT PAGE START
 =============================*/
 /* about start */
 .about_area_img_1 {
@@ -4122,11 +4097,6 @@ button {
 .about_area_img_2 {
     height: 535px;
 }
-
-/* .about_area_img_3 {
-    height: 225px;
-    margin-top: 25px;
-} */
 
 .about_text {
     height: 100%;
@@ -4379,140 +4349,8 @@ button {
 
 /* agent end */
 
-
-
 /*=============================
     ABOUT PAGE END
-=============================*/
-
-/*=============================
-    AGENT PAGE START
-=============================*/
-/* .single_agent_2 {
-    margin-top: 25px;
-    border-radius: 14px;
-    border: 1px solid #E6E9EA;
-    background: rgba(255, 255, 255, 0.00);
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    -ms-border-radius: 14px;
-    -o-border-radius: 14px;
-}
-
-.agent_2_img {
-    width: 230px;
-    height: 230px;
-    margin: 37px auto;
-    position: relative;
-}
-
-.agent_2_img img {
-    border-radius: 230px;
-    -webkit-border-radius: 230px;
-    -moz-border-radius: 230px;
-    -ms-border-radius: 230px;
-    -o-border-radius: 230px;
-}
-
-.agent_img_overly {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    border-radius: 230px;
-    background: rgba(3, 26, 38, 0.24);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    -webkit-border-radius: 230px;
-    -moz-border-radius: 230px;
-    -ms-border-radius: 230px;
-    -o-border-radius: 230px;
-}
-
-.agent_img_overly ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
-
-.agent_img_overly ul li a {
-    font-size: 15px;
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-    text-align: center;
-    margin: 0px 3px;
-    color: var(--colorBlack);
-    background: var(--colorPrimary);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.agent_img_overly ul li a:hover {
-    color: var(--colorBlack);
-    background: var(--colorWhite);
-}
-
-.single_agent_2:hover .agent_img_overly {
-    opacity: 1;
-}
-
-.single_agent_2:hover .agent_img_overly ul {
-    opacity: 1;
-}
-
-.agent_2_text {
-    padding: 20px 25px;
-    border-top-right-radius: 14px;
-    border-top-left-radius: 14px;
-    border-top: 1px solid #E6E9EA;
-}
-
-.agent_2_text_left a {
-    font-size: 16px;
-}
-
-.agent_2_text_left p {
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.agent_2_text_right a {
-    font-size: 33px;
-    color: var(--colorBlack);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-} */
-
-/*=============================
-    AGENT PAGE END
 =============================*/
 
 
@@ -4698,18 +4536,9 @@ button {
     background: var(--colorBlack);
 }
 
-.agencies_details .single_agent_img {
-    height: 290px;
-}
-
-.agencies_details .listing_bottom ul li {
-    align-items: initial;
-}
-
 /*=============================
     AGENT DETAILS END
 =============================*/
-
 
 /*=============================
     BLOG DETAILS START
@@ -5102,7 +4931,6 @@ button {
 
 .blog_details_right_header {
     padding: 25px;
-    /* padding-top: 37px; */
     border-top: 1px solid rgba(3, 26, 38, 0.10);
 }
 
@@ -5234,7 +5062,6 @@ button {
 /*=============================
     BLOG DETAILS END
 =============================*/
-
 
 /*=============================
     CHECKOUT PAGE START
@@ -5451,7 +5278,6 @@ button {
 .faq_accordion .accordion-button:not(.collapsed) {
     background: none;
     color: var(--colorBlack);
-
 }
 
 .faq_accordion button::after {
@@ -5810,19 +5636,22 @@ button {
 =============================*/
 
 /*=============================
-    PROPERTY GRID VIEW START
+    LISTING GRID VIEW START
 =============================*/
 .property_grid_view .banner_search {
     margin-top: -100px;
 }
 
+.property_grid_view .listing_bottom ul li {
+    align-items: initial;
+}
+
 /*=============================
-    PROPERTY GRID VIEW END
+    LISTING GRID VIEW END
 =============================*/
 
-
 /*=============================
-    PROPERTY LEFT SIDEBAR START
+    LISTING LEFT SIDEBAR START
 =============================*/
 .property_sidebar {
     border: 1px solid rgba(3, 26, 38, 0.10);
@@ -5880,7 +5709,6 @@ button {
 }
 
 .sidebar_amenities {
-    /* padding-bottom: 0 !important; */
     border-bottom: 0;
 }
 
@@ -5904,7 +5732,7 @@ button {
 
 .sidebar_amenities .accordion-button {
     background: rgba(3, 26, 38, 0.04);
-    padding: 10px 15px;
+    padding: 13px 15px;
 }
 
 .sidebar_amenities .accordion-button::after {
@@ -5947,7 +5775,7 @@ button {
 }
 
 /*=============================
-    PROPERTY LEFT SIDEBAR END
+    LISTING LEFT SIDEBAR END
 =============================*/
 
 /*=============================
@@ -6094,227 +5922,7 @@ button {
 =============================*/
 
 /*=============================
-    AGENCIES PAGE START
-=============================*/
-.single_agencies {
-    filter: drop-shadow(0px 24px 60px rgba(3, 26, 38, 0.14));
-    overflow: hidden;
-    background: var(--colorWhite);
-    margin-bottom: 25px;
-}
-
-.single_agencies_img {
-    display: block;
-    height: 260px;
-    overflow: hidden;
-}
-
-.single_agencies_img img {
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.single_agencies_text {
-    padding: 35px;
-}
-
-.single_agencies_text .agencies_logo {
-    width: 120px;
-    position: relative;
-    margin-top: -70px;
-    overflow: hidden;
-    border: 1px solid rgba(3, 26, 38, 0.10);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    z-index: 1;
-}
-
-.single_agencies_text .item_title {
-    margin-top: 20px;
-}
-
-.single_agencies_text p {
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
-
-.single_agencies_text .list li {
-    color: var(--paraColor);
-    font-size: 15px;
-    margin-top: 10px;
-}
-
-.single_agencies_text .list li span {
-    color: var(--colorBlack);
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 80px;
-}
-
-.single_agencies_text .social_link {
-    gap: 20px;
-    margin-top: 25px;
-}
-
-.single_agencies_text .social_link li a {
-    color: var(--colorBlack);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.single_agencies_text .social_link li a:hover {
-    color: var(--colorPrimary);
-}
-
-.single_agencies:hover .single_agencies_img img {
-    transform: scale(1.05) rotate(2deg);
-    -webkit-transform: scale(1.06) rotate(2deg);
-    -moz-transform: scale(1.05) rotate(2deg);
-    -ms-transform: scale(1.05) rotate(2deg);
-    -o-transform: scale(1.05) rotate(2deg);
-}
-
-/*=============================
-    AGENCIES PAGE END
-=============================*/
-
-/*=============================
-    AGENCIES DETAILS START
-=============================*/
-.agencies_details_img {
-    height: 500px;
-    overflow: hidden;
-}
-
-.agencies_details_header {
-    margin-top: 25px;
-}
-
-
-.agencies_details_header .text h2 {
-    font-weight: 600;
-    font-size: 36px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.agencies_details_text h3 {
-    font-size: 20px;
-    font-weight: 600;
-    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
-    padding-bottom: 5px;
-    margin-bottom: 25px;
-    margin-top: 40px;
-}
-
-.agencies_details_text p {
-    margin-bottom: 25px;
-}
-
-.agencies_details_text .list {
-    margin-bottom: 20px;
-}
-
-.agencies_details_text .list li {
-    color: var(--paraColor);
-    font-size: 15px;
-    margin-top: 10px;
-}
-
-.agencies_details_text .list li span {
-    color: var(--colorBlack);
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 80px;
-}
-
-.agencies_details_text .social_link {
-    gap: 10px;
-}
-
-.agencies_details_text .social_link li a {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background: var(--colorPrimary);
-    color: var(--colorWhite);
-    font-size: 16px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.agencies_details_text .social_link li a:hover {
-    background: var(--colorBlack);
-    color: var(--colorWhite);
-}
-
-.agencies_details_text .agent_map {
-    height: 400px;
-    overflow: hidden;
-}
-
-.agencies_details_text .agent_map iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.agencies_property_heading {
-    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
-    padding-bottom: 5px;
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.agencies_tabs {
-    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
-    gap: 20px;
-}
-
-.agencies_tabs .nav-item button {
-    border: none;
-    border-radius: 0;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--colorBlack);
-    border-bottom: 3px solid var(--colorWhite);
-    padding: 0px 0px 10px 0px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-}
-
-.agencies_tabs .nav-item button:hover,
-.agencies_tabs .nav-item button.active {
-    background: none;
-    color: var(--colorBlack);
-    border-color: var(--colorPrimary);
-}
-
-.agencies_details .listing_item {
-    margin: 25px 0px 0px 0px;
-}
-
-/*=============================
-    AGENCIES DETAILS END
-=============================*/
-
-/*=============================
-    PROPERTY DETAILS START
+    LISTING DETAILS START
 =============================*/
 .property_details {
     background: var(--lightBg);
@@ -6326,7 +5934,8 @@ button {
     box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
 }
 
-.single_property_details h4 {
+.single_property_details h4,
+.listing_det_gallery h4 {
     font-size: 28px;
     font-weight: 600;
 }
@@ -6380,23 +5989,6 @@ button {
     margin-right: 5px;
 }
 
-/* .property_details_address ul li span {
-    font-size: 14px;
-    padding: 4px 12px;
-    font-weight: 500;
-    font-family: var(--paraFont);
-    color: var(--colorBlack);
-    background: var(--colorPrimary);
-    text-transform: capitalize;
-    position: relative;
-    overflow: hidden;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-} */
-
 .property_details_address h3 {
     font-size: 24px;
     font-weight: 600;
@@ -6434,26 +6026,6 @@ button {
     margin-top: 15px;
 }
 
-.property_apartment_details li {
-    width: 33%;
-    margin-top: 13px;
-}
-
-.property_apartment_details li p {
-    font-size: 15px;
-    font-family: var(--headingFont);
-    color: var(--colorBlack);
-}
-
-.property_apartment_details li p span {
-    margin-left: 10px;
-    color: var(--paraColor);
-}
-
-.property_facilities {
-    margin-top: 50px;
-}
-
 .property_facilities ul {
     margin-top: 10px;
 }
@@ -6479,6 +6051,49 @@ button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+.listing_det_gallery {
+    padding: 30px;
+    background: var(--colorWhite);
+    box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
+}
+
+.listing_det_gallery h4 {
+    margin-bottom: 30px;
+}
+
+.listing_det_gallery a {
+    display: block;
+    border-right: 1px solid var(--colorWhite);
+    height: 150px;
+}
+
+.listing_det_gallery .slick-dots {
+    gap: 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.listing_det_gallery .slick-dots li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 0;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: transparent;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.listing_det_gallery .slick-dots li.slick-active button {
+    background: var(--colorYellow);
+    border-color: var(--colorYellow);
 }
 
 .apertment_layout {
@@ -6665,84 +6280,43 @@ button {
     text-align: center;
 }
 
-.sidebar_reservation {
+.opening_our {
     padding: 35px;
+    background: var(--colorWhite);
 }
 
-.sidebar_reservation h3 {
+.opening_our h3 {
     font-size: 26px;
     font-weight: 600;
     text-transform: capitalize;
-}
-
-.sidebar_reservation {
-    background: var(--colorWhite);
-    box-shadow: none;
-    margin: 0;
-}
-
-.sidebar_reservation form {
-    margin-top: 3px;
-}
-
-.sidebar_reservation_input {
-    margin-top: 20px;
-}
-
-.sidebar_reservation_input p {
-    color: var(--colorBlack);
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-
-.sidebar_reservation input {
-    text-transform: uppercase;
-    font-size: 15px;
-    border: 1px solid #EFEEEE;
-    background: var(--colorWhite);
-    padding: 13px 15px;
-}
-
-.sidebar_reservation input::placeholder {
-    color: var(--colorBlack);
-}
-
-.sidebar_reservation .quentity_btn {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.opening_our ul {
+    border-top: 1px solid rgba(3, 26, 38, 0.10);
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+.opening_our ul li {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #EFEEEE;
-    background: var(--colorWhite);
-    padding: 0px 15px;
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    padding: 10px 0px;
 }
 
-.sidebar_reservation .quentity_btn button {
-    font-size: 23px;
-    color: var(--colorBlack);
-    padding: 0;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+.opening_our ul li:last-child {
     border: none;
+    padding-bottom: 0;
 }
 
-.sidebar_reservation .quentity_btn button:hover {
-    color: var(--colorPrimary);
-}
-
-.sidebar_reservation .quentity_btn input {
-    width: 60px;
-    text-align: center;
-    height: auto;
-    border-radius: 0;
-    border: none;
-    margin: 0;
-    color: var(--colorBlack);
-    font-size: 16px;
-    font-weight: 600;
+.opening_our ul li span {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .sales_executive {
@@ -6784,7 +6358,7 @@ button {
 }
 
 .sales_executive_name:hover {
-    color: var(--colorPrimary);
+    color: var(--colorYellow);
 }
 
 .sales_executive p {
@@ -6829,13 +6403,29 @@ button {
     text-transform: capitalize;
 }
 
-.property_details_slider {
-    padding: 0px 12px;
+.listing_det_slider_area {
+    overflow: hidden;
 }
 
 .property_details_large_img {
     height: 500px;
     overflow: hidden;
+}
+
+.listing_det_slider .nextArrow,
+.listing_det_slider .prevArrow {
+    top: 50%;
+    right: 22px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.listing_det_slider .prevArrow {
+    right: auto;
+    left: 23px;
 }
 
 .property_details_slider .slider-nav2 {
@@ -6911,10 +6501,8 @@ button {
     margin: 0px 12px 10px 0px;
 }
 
-
-
 /*=============================
-    PROPERTY DETAILS END
+    LISTING DETAILS END
 =============================*/
 
 /*=============================
@@ -7110,7 +6698,6 @@ button {
     margin-left: auto;
     padding: 30px;
     min-height: 100vh;
-    /* background: var(--lightBg); */
 }
 
 .dashboard_content .dashboard_title {

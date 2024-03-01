@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <title>LISTomg - Directory & Listings HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/all.min.css">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/scroll_button.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
+    <link rel="stylesheet" href="assets/css/venobox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -33,8 +35,8 @@
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="far fa-bars menu_icon_bar"></i>
-                <i class="far fa-times close_icon_close"></i>
+                <i class="fas fa-bars bar_icon"></i>
+                <i class="far fa-times close_icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
@@ -47,7 +49,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about_us.html">About Us</a>
+                        <a class="nav-link" href="about_us.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Listing <i class="far fa-angle-down"></i></a>
@@ -68,8 +70,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
                         <ul class="droap_menu">
-                            <li><a href="agencies.html">agencies</a></li>
-                            <li><a href="agencies_details.html">agencies details</a></li>
                             <li><a href="agent.html">agent</a></li>
                             <li><a href="agent_details.html">agent details</a></li>
                             <li><a href="checkout.html">checkout</a></li>
@@ -85,7 +85,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <ul class="menu_right d-flex align-items-center">
@@ -141,8 +141,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="property_details_large_img">
-                        <img src="assets/images/property_details_img_1.jpg" alt="img-fluid w-100">
+                    <div class="listing_det_slider_area">
+
+                        <div class="row listing_det_slider">
+                            <div class="col-12">
+                                <div class="property_details_large_img">
+                                    <img src="assets/images/property_details_img_1.jpg" alt="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="property_details_large_img">
+                                    <img src="assets/images/property_details_img_1.jpg" alt="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="property_details_large_img">
+                                    <img src="assets/images/property_details_img_1.jpg" alt="img-fluid w-100">
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="single_property_details mt_20 wow fadeInUp" data-wow-duration="1.5s">
@@ -160,22 +177,7 @@
                                 <li><i class="fas fa-map-marker-alt"></i>28B Highgate Road, London</li>
                                 <li><i class="far fa-clock"></i>10 months ago</li>
                             </ul>
-                            <h3>$3,700</h3>
                         </div>
-                        <ul class="flat_details d-flex flex-wrap">
-                            <li>
-                                <span><img src="assets/images/bad.png" alt="img" class="img-fluid w-100"></span>
-                                8 Beds
-                            </li>
-                            <li>
-                                <span><img src="assets/images/bathtab.png" alt="img" class="img-fluid w-100"></span>
-                                6 Baths
-                            </li>
-                            <li>
-                                <span><img src="assets/images/squre.png" alt="img" class="img-fluid w-100"></span>
-                                2400 Sq Ft
-                            </li>
-                        </ul>
                     </div>
                     <div class="single_property_details mt_25 wow fadeInUp" data-wow-duration="1.5s">
                         <h4>Description</h4>
@@ -190,38 +192,8 @@
                             mauris rutrum in. Mauris nibh sapien, ornare at dui ac, placerat pulvinar nisi.</p>
                     </div>
                     <div class="single_property_details mt_25 wow fadeInUp" data-wow-duration="1.5s">
-                        <h4>Property Details</h4>
-                        <ul class=" property_apartment_details d-flex flex-wrap mt_10">
-                            <li>
-                                <p>Property ID:<span>F257481</span></p>
-                            </li>
-                            <li>
-                                <p>Rooms:<span>5</span></p>
-                            </li>
-                            <li>
-                                <p>Property Status:<span>For Sale</span></p>
-                            </li>
-                            <li>
-                                <p>Property Price:<span>$340,00</span></p>
-                            </li>
-                            <li>
-                                <p>Garages:<span>2</span></p>
-                            </li>
-                            <li>
-                                <p>Bedrooms:<span>5</span></p>
-                            </li>
-                            <li>
-                                <p>Property Type:<span>Garden House</span></p>
-                            </li>
-                            <li>
-                                <p>Baths:<span>5</span></p>
-                            </li>
-                            <li>
-                                <p>Originating Year:<span>2022</span></p>
-                            </li>
-                        </ul>
                         <div class="property_facilities">
-                            <h4>Facilities</h4>
+                            <h4>Amenities</h4>
                             <ul class="d-flex flex-wrap">
                                 <li>Air Cond</li>
                                 <li>balcony</li>
@@ -236,6 +208,41 @@
                                 <li>Fridge</li>
                                 <li>Swimming Pool</li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="listing_det_gallery mt_25">
+                        <h4>Photo Gallery</h4>
+                        <div class="row listing_det_gallery_slider">
+                            <div class="col-xl-2">
+                                <a class="venobox" data-gall="gallery01" href="assets/images/listing_1.jpg">
+                                    <img src=" assets/images/listing_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-xl-2">
+                                <a class="venobox" data-gall="gallery01" href="assets/images/listing_2.jpg">
+                                    <img src=" assets/images/listing_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-xl-2">
+                                <a class="venobox" data-gall="gallery01" href="assets/images/listing_3.jpg">
+                                    <img src=" assets/images/listing_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-xl-2">
+                                <a class="venobox" data-gall="gallery01" href="assets/images/listing_4.jpg">
+                                    <img src=" assets/images/listing_4.jpg" alt="gallery1" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-xl-2">
+                                <a class="venobox" data-gall="gallery01" href="assets/images/listing_5.jpg">
+                                    <img src=" assets/images/listing_5.jpg" alt="gallery1" class="img-fluid w-100">
+                                </a>
+                            </div>
+                            <div class="col-xl-2">
+                                <a class="venobox" data-gall="gallery01" href="assets/images/listing_6.jpg">
+                                    <img src=" assets/images/listing_6.jpg" alt="gallery1" class="img-fluid w-100">
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="single_property_details mt_25 wow fadeInUp" data-wow-duration="1.5s">
@@ -460,45 +467,16 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="sticky_sidebar">
-                        <div class="sidebar_reservation">
-                            <h3>Book A Reservation </h3>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-12">
-                                        <div class="sidebar_reservation_input">
-                                            <input type="date">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-12">
-                                        <div class="sidebar_reservation_input">
-                                            <input type="date">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-sm-6 col-lg-12">
-                                        <div class="sidebar_reservation_input">
-                                            <p>Adults</p>
-                                            <div class="quentity_btn">
-                                                <button class="btn">-</button>
-                                                <input type="text" placeholder="1">
-                                                <button class="btn">+</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-sm-6 col-lg-12">
-                                        <div class="sidebar_reservation_input">
-                                            <p>Children</p>
-                                            <div class="quentity_btn">
-                                                <button class="btn">-</button>
-                                                <input type="text" placeholder="1">
-                                                <button class="btn">+</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt_30">
-                                        <button type="submit" class="common_btn w-100">Request Booking</button>
-                                    </div>
-                                </div>
-                            </form>
+                        <div class="opening_our">
+                            <h3>Opening Hours </h3>
+                            <ul>
+                                <li><span>Sunday</span> <span>9:00 AM - 5:00 PM</span></li>
+                                <li><span>Monday</span> <span>9:30 AM - 5:30 PM</span></li>
+                                <li><span>Tuesday</span> <span>9:30 AM - 5:30 PM</span></li>
+                                <li><span>Wednesday</span> <span>9:00 AM - 5:00 PM</span></li>
+                                <li><span>Thursday</span> <span>9:30 AM - 5:30 PM</span></li>
+                                <li><span>Friday</span> <span>9:30 AM - 5:30 PM</span></li>
+                            </ul>
                         </div>
 
                         <div class="sales_executive">
@@ -683,7 +661,7 @@
         <div class="footer_area pt_120 xs_pt_100 pb_115 xs_pb_95">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="footer_left">
                             <div class="footer_logo">
                                 <img src="assets/images/footer_logo.png" alt="logo" class="img-fluid w-100">
@@ -710,7 +688,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="footer_menu">
                             <h4>Useful Links</h4>
                             <ul>
@@ -722,7 +700,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="footer_menu">
                             <h4>Navigation</h4>
                             <ul>
@@ -730,22 +708,23 @@
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">My Listing</a></li>
                                 <li><a href="#">Favorites</a></li>
+                                <li><a href="#">Faq's</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="footer_menu">
                             <h4>Help</h4>
                             <ul>
                                 <li><a href="#">sign in</a></li>
-                                <li><a href="#">Register</a></li>
+                                <li><a href="#">sign up</a></li>
                                 <li><a href="#">add listing</a></li>
                                 <li><a href="#">Pricing</a></li>
                                 <li><a href="#">contuct us</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-lg-3 col-md-8">
                         <div class="footer_right">
                             <h4>Get in Touch</h4>
                             <form action="#">
@@ -819,7 +798,8 @@
     <!--count up js-->
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/jquery.countup.min.js"></script>
-
+    <!--venobox js-->
+    <script src="assets/js/venobox.min.js"></script>
     <!--script/custom js-->
     <script src="assets/js/script.js"></script>
 

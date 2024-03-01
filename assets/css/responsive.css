@@ -1,13 +1,21 @@
 @media (min-width: 1400px) and (max-width: 1600px) {
 
-    /*================================
-        HOME PAGE 01 START
-    ================================*/
+    .destination_3_item {
+        height: 385px;
+    }
 
+    .destination_3 .prevArrow,
+    .destination_3 .nextArrow {
+        left: 297px;
+    }
 
-    /*================================
-        HOME PAGE 01 END
-    ================================*/
+    .destination_3 .nextArrow {
+        left: 1096px !important;
+    }
+
+    .testimonial_3_item {
+        margin: 55px 80px 38px 12px;
+    }
 
     /*================================
         AGENCIES DETAILS START
@@ -168,13 +176,66 @@
         height: 260px;
     }
 
-
-
-
-
-
     /*================================
         HOME PAGE 02 END
+    ================================*/
+
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_contant_3 .banner_selector {
+        width: 25%;
+    }
+
+    .listing_3_item_img {
+        height: 410px;
+    }
+
+    .listing_3_item_overly {
+        padding: 48px 30px 130px 30px;
+    }
+
+    .destination_3_item {
+        height: 415px;
+    }
+
+    .destination_3 .prevArrow,
+    .destination_3 .nextArrow {
+        left: 318px;
+    }
+
+    .destination_3 .nextArrow {
+        left: 873px !important;
+    }
+
+    .testimonial_3_item::after {
+        bottom: 0;
+    }
+
+    .testimonial_3 .prevArrow,
+    .testimonial_3 .nextArrow {
+        top: 150px;
+        left: 747px;
+    }
+
+    .testimonial_3 .nextArrow {
+        top: 210px !important;
+    }
+
+    .testimonial_3_item {
+        margin: 55px 70px 38px 10px;
+    }
+
+    .blog_3_item {
+        height: 435px;
+    }
+
+    .testimonial_2_item p {
+        font-size: 18px;
+    }
+
+    /*================================
+        HOME PAGE 03 END
     ================================*/
 
     /*================================
@@ -185,7 +246,19 @@
     }
 
     .breadcrumbs_overly {
-        padding: 185px 0px 115px 0px;
+        padding: 180px 0px 120px 0px;
+    }
+
+    .about_area_img_2 {
+        height: 450px;
+    }
+
+    .about_area_img_1 {
+        height: 385px;
+    }
+
+    .single_agent_img {
+        height: 280px;
     }
 
     /*================================
@@ -196,7 +269,7 @@
         AGENCIES DETAILS START
     ================================*/
     .popular_blog_text {
-        width: 66%;
+        width: 64%;
     }
 
     .agencies_details_img {
@@ -273,7 +346,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img_1 {
-        height: 320px;
+        height: 430px;
     }
 
     .blog_details_img_2 {
@@ -468,7 +541,6 @@
         HOME PAGE 01 END
     ================================*/
 
-
     /*================================
         HOME PAGE 02 START
     ================================*/
@@ -528,6 +600,47 @@
         HOME PAGE 02 END
     ================================*/
 
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .listing_3_item_img {
+        height: 340px;
+    }
+
+    .listing_3_item_overly {
+        padding: 48px 30px 130px 30px;
+    }
+
+    .destination_3_item {
+        height: 460px;
+    }
+
+    .destination_3 .nextArrow {
+        left: 632px !important;
+    }
+
+    .testimonial_3_item::after {
+        left: 400px !important;
+        bottom: 0;
+    }
+
+    .testimonial_3 .prevArrow,
+    .testimonial_3 .nextArrow {
+        top: 120px;
+        left: 626px;
+    }
+
+    .testimonial_3 .nextArrow {
+        top: 180px !important;
+    }
+
+    .blog_3_item {
+        height: 360px;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
 
     /*================================
         ABOUT PAGE START
@@ -537,7 +650,19 @@
     }
 
     .breadcrumbs_overly {
-        padding: 170px 0px 90px 0px;
+        padding: 165px 0px 100px 0px;
+    }
+
+    .about_area_img_2 {
+        height: 370px;
+    }
+
+    .about_area_img_1 {
+        height: 320px;
+    }
+
+    .single_agent_img {
+        height: 320px;
     }
 
     /*================================
@@ -588,7 +713,7 @@
     }
 
     .popular_blog_text {
-        width: 63%;
+        width: 60%;
     }
 
     .blog_details_right_header.sidebar_blog {
@@ -667,11 +792,15 @@
     }
 
     .agent_social_media li a {
-        padding: 8px 20px;
+        padding: 8px 18px;
     }
 
     .agent_social_media {
         margin-top: 25px;
+    }
+
+    .agent_details_area_text p {
+        font-size: 15px;
     }
 
     /*================================
@@ -682,7 +811,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img_1 {
-        height: 270px;
+        height: 360px;
     }
 
     .blog_details_img_2 {
@@ -739,7 +868,6 @@
     /*================================
         CONTACT END
     ================================*/
-
     .login_text {
         padding: 50px;
     }
@@ -817,8 +945,20 @@
         font-size: 24px;
     }
 
+    .opening_our h3 {
+        font-size: 22px;
+    }
+
     .property_details_sidebar {
         padding: 30px;
+    }
+
+    .sales_executive_name {
+        font-size: 20px;
+    }
+
+    .listing_det_gallery a {
+        height: 110px;
     }
 
     /*================================
@@ -867,6 +1007,10 @@
     /*================================
         DASHBOARD END
     ================================*/
+
+    .listing_bottom p {
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -916,7 +1060,6 @@
     }
 
     /* menu end */
-
     .banner_contant h1 {
         font-size: 48px;
         line-height: initial;
@@ -989,7 +1132,7 @@
     }
 
     .testimonial_item .name::after {
-        left: 350px;
+        left: 195px;
     }
 
     .process_item {
@@ -1004,7 +1147,6 @@
     /*================================
         HOME PAGE 01 END
     ================================*/
-
 
     /*================================
         HOME PAGE 02 START
@@ -1073,6 +1215,54 @@
         HOME PAGE 02 END
     ================================*/
 
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_3 .banner_overly {
+        padding: 222px 0px 160px 0px;
+    }
+
+    .banner_contant_3 .banner_input {
+        width: 28%;
+    }
+
+    .listing_3_item_img {
+        height: 385px;
+    }
+
+    .testimonial_3_item_img {
+        padding-left: 0;
+        border-left: 0;
+        margin-top: 25px;
+    }
+
+    .testimonial_3_item {
+        margin: 0px 12px;
+        text-align: center;
+    }
+
+    .testimonial_2_item p {
+        font-size: 18px;
+        line-height: initial;
+    }
+
+    .testimonial_3_item::after {
+        left: 285px !important;
+        bottom: 0px;
+    }
+
+    .blog_3_item {
+        height: 410px;
+    }
+
+    .destination_3_slider .destination_3_item {
+        height: 550px;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
+
 
     /*================================
         ABOUT PAGE START
@@ -1083,7 +1273,15 @@
     }
 
     .breadcrumbs_overly {
-        padding: 170px 0px 90px 0px;
+        padding: 150px 0px 90px 0px;
+    }
+
+    .about_text {
+        padding-bottom: 25px;
+    }
+
+    .single_agent_img {
+        height: 365px;
     }
 
     /*================================
@@ -1192,7 +1390,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img_1 {
-        height: 305px;
+        height: 405px;
     }
 
     .blog_details_img_2 {
@@ -1291,7 +1489,6 @@
     /*================================
         CONTACT END
     ================================*/
-
     .other_login_option li {
         width: 48%;
     }
@@ -1328,7 +1525,7 @@
         PROPERTY DETAILS START
     ================================*/
     .property_details_large_img {
-        height: 305px;
+        height: 320px;
     }
 
     .property_details_slider .slider-nav2 {
@@ -1434,6 +1631,10 @@
     .login_text {
         padding: 50px;
     }
+
+    .listing_det_gallery a {
+        height: 120px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1483,7 +1684,6 @@
     }
 
     /* menu end */
-
     .banner_contant h1 {
         font-size: 40px;
         line-height: initial;
@@ -1575,7 +1775,7 @@
     }
 
     .testimonial_item .name::after {
-        left: 350px;
+        left: 200px;
     }
 
     .blog_text .title {
@@ -1590,7 +1790,6 @@
     /*================================
         HOME PAGE 01 END
     ================================*/
-
 
     /*================================
         HOME PAGE 02 START
@@ -1640,7 +1839,7 @@
     }
 
     .banner_2_overly {
-        padding: 130px 0px 110px 0px;
+        padding: 160px 0px 110px 0px;
     }
 
     .section_title_2 h2,
@@ -1700,6 +1899,7 @@
         left: 190px;
         width: 100px;
         height: 84px;
+        bottom: 0;
     }
 
     .destination .section_title_2 h2 span::after {
@@ -1757,6 +1957,96 @@
         HOME PAGE 02 END
     ================================*/
 
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_3 .banner_overly {
+        padding: 222px 0px 150px 0px;
+    }
+
+    .main_menu_3 #navbarNav {
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .main_menu_3 .navbar-nav {
+        background: var(--colorWhite);
+    }
+
+    .menu_right_3 {
+        padding-left: 22px;
+    }
+
+    .banner_contant_3 .banner_input,
+    .banner_btn_3,
+    .banner_btn_3 button {
+        width: 100%;
+        border: none;
+    }
+
+    .banner_contant_3 .banner_selector {
+        width: 100%;
+        border: none;
+    }
+
+    .banner_contant_3 .select2-container .select2-selection--single {
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+
+    .section_title_3 h2 {
+        font-size: 28px;
+    }
+
+    .listing_3_item_img {
+        height: 280px;
+    }
+
+    .listing_3_item_overly {
+        height: 63%;
+    }
+
+    .listing_3_item_bottom .comment {
+        margin-top: 15px;
+    }
+
+    .destination_3_item {
+        height: 405px;
+    }
+
+    .testimonial_3_item {
+        margin: 0px 12px;
+        text-align: center;
+    }
+
+    .testimonial_3_item_img {
+        padding-left: 0;
+        border-left: 0;
+        margin-top: 25px;
+    }
+
+    .testimonial_3_item::after {
+        bottom: 0;
+        left: 190px !important;
+    }
+
+    .blog_3_item {
+        height: 630px;
+    }
+
+    .footer_brand_item {
+        width: 120px;
+        height: auto;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
 
     /*================================
         ABOUT PAGE START
@@ -1767,7 +2057,28 @@
     }
 
     .breadcrumbs_overly {
-        padding: 170px 0px 90px 0px;
+        padding: 150px 0px 90px 0px;
+    }
+
+    .about_text {
+        padding-bottom: 25px;
+    }
+
+    .about_area_img_2 {
+        height: 425px;
+    }
+
+    .about_area_img_1 {
+        height: 360px;
+    }
+
+    .single_amenites li a {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .single_agent_img {
+        height: 265px;
     }
 
     /*================================
@@ -1882,7 +2193,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img_1 {
-        height: 225px;
+        height: 300px;
     }
 
     .blog_details_review {
@@ -1979,7 +2290,6 @@
     /*================================
         CONTACT END
     ================================*/
-
     .login_text {
         padding: 40px;
     }
@@ -2067,7 +2377,7 @@
         PROPERTY DETAILS START
     ================================*/
     .property_details_large_img {
-        height: 225px;
+        height: 240px;
     }
 
     .property_details_slider .slider-nav2 {
@@ -2201,6 +2511,10 @@
     /*================================
         DASHBOARD END
     ================================*/
+
+    .listing_det_gallery a {
+        height: 110px;
+    }
 }
 
 @media (max-width: 575.99px) {
@@ -2354,7 +2668,7 @@
     }
 
     .testimonial_item .name::after {
-        left: 350px;
+        left: 420px;
     }
 
     .process_item_1::after,
@@ -2419,7 +2733,7 @@
     }
 
     .banner_2_overly {
-        padding: 130px 0px 110px 0px;
+        padding: 165px 0px 110px 0px;
     }
 
     .category_2_item {
@@ -2556,7 +2870,7 @@
         HOME PAGE 03 START
     ================================*/
     .banner_3 .banner_overly {
-        padding: 222px 0px 150px 0px;
+        padding: 215px 0px 150px 0px;
     }
 
     .main_menu_3 #navbarNav {
@@ -2648,16 +2962,6 @@
         height: auto;
     }
 
-
-
-
-
-
-
-
-
-
-
     /*================================
         HOME PAGE 03 END
     ================================*/
@@ -2676,7 +2980,24 @@
     }
 
     .breadcrumbs_overly {
-        padding: 140px 0px 60px 0px;
+        padding: 120px 0px 60px 0px;
+    }
+
+    .about_area_img_2 {
+        height: auto;
+        margin: 25px 0px;
+    }
+
+    .about_area_img_1 {
+        height: auto;
+    }
+
+    .about_text ul li {
+        width: 100%;
+    }
+
+    .single_agent_img {
+        height: auto;
     }
 
     /*================================
@@ -2729,7 +3050,7 @@
     }
 
     .popular_blog_text {
-        width: 60%;
+        width: 56%;
     }
 
     .blog_details_right_header.sidebar_blog {
@@ -2931,7 +3252,7 @@
     }
 
     .login_text {
-        padding: 30px;
+        padding: 30px !important;
     }
 
     .login_text h4 {
@@ -3198,4 +3519,7 @@
     /*================================
         DASHBOARD END
     ================================*/
+    .listing_det_gallery a {
+        height: auto;
+    }
 }
