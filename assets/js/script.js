@@ -521,6 +521,12 @@ $(function () {
     });
 
 
+    //======animated heahline=======
+    $('.animate-clip').animatedHeadline({
+        animationType: 'clip'
+    });
+
+
     //======venobox js======
     $('.venobox').venobox();
 
