@@ -2659,7 +2659,7 @@ button {
 /* destination start */
 .destination .section_title_2 h2 span::after {
     top: 20px;
-    width: 220px;
+    width: 210px;
 }
 
 .destination_item_1 {
@@ -5821,6 +5821,10 @@ button {
     -o-border-radius: 0;
 }
 
+.payment_modal .modal {
+    z-index: 99999;
+}
+
 .payment_modal .modal-body {
     padding: 30px;
 }
@@ -6286,18 +6290,18 @@ button {
 }
 
 .opening_our h3 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background: var(--lightBg);
+    padding: 7px 20px 10px 20px;
 }
 
 .opening_our ul {
-    border-top: 1px solid rgba(3, 26, 38, 0.10);
-    margin-top: 20px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .opening_our ul li {
@@ -6305,7 +6309,7 @@ button {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    border-bottom: 1px solid rgb(3 26 38 / 6%);
     padding: 10px 0px;
 }
 
